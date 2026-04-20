@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
+    - name: zmkfirmware 
       url-base: https://github.com/zmkfirmware
     - name: MeowCatpawkittie
       url-base: https://github.com/MeowCatpawkittie
     - name: caksoylar
-      url-base: https://github.com/caksoylar
+      url-base: https://github.com/caksoylar  
     - name: badjeff
       url-base: https://github.com/badjeff
   projects:
