@@ -39,7 +39,6 @@
 &trackball_listener_R {
     status = "okay";
     device = <&trackball_R>;
-    automouse-layer = <6>;
 };
 
 &spi0 {
