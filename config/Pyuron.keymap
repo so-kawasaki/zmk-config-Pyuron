@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 6
+#define SCROLL 7
 
 &mt {
     flavor = "balanced";
@@ -11,7 +12,16 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        combo_scroll {
+            timeout-ms = <50>;
+            key-positions = <17 18>;
+            bindings = <&mo SCROLL>;
+            layers = <0>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -99,6 +109,15 @@
 &trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &trans    &trans
 &trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &mkp MB1  &trans
 &mkp MB2  &trans  &trans  &trans  &trans  &mkp MB1  &trans  &lt_to_layer_0 3 LANG1  &trans    &trans
+            >;
+        };
+
+        SCROLL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
