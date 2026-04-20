@@ -116,10 +116,10 @@
 
         cursor {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &trans    &trans
+&trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &trans    &trans
+&trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &mkp MB1  &trans
+&mkp MB2  &trans  &trans  &trans  &trans  &mkp MB1  &trans  &lt_to_layer_0 3 LANG1  &trans    &trans
             >;
         };
     };
