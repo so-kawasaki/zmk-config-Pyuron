@@ -40,7 +40,6 @@
     status = "okay";
     device = <&trackball_R>;
     automouse-layer = <6>;
-    input-processors = <&zip_xy_scaler 1 2>;
 };
 
 &spi0 {
