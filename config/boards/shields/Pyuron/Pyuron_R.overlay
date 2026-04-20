@@ -44,6 +44,11 @@
     device = <&trackball_R>;
 };
 
+&trackball_listener_R_scroll {
+    status = "okay";
+    device = <&trackball_R>;
+};
+
 &spi0 {
     status = "okay";
     cs-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;
