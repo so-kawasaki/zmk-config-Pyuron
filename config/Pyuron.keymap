@@ -11,7 +11,14 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        right-scroll {
+            bindings = <&mo 5>;
+            key-positions = <17 18>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -84,7 +91,7 @@
             >;
         };
 
-        layer_5 {
+        scroll {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
