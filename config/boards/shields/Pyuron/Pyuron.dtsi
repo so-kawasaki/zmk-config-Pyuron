@@ -38,7 +38,8 @@ split_inputs {
             layers = <7>;
             input-processors =
                 <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT)>,
-                <&zip_xy_scaler 5 8>;
+                <&zip_xy_scaler 5 8>,
+                <&zip_temp_layer 6 700>;
         };
     };
 
