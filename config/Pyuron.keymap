@@ -23,6 +23,11 @@
             bindings = <&tog 7>;
             key-positions = <12 11>;
         };
+
+        tab_move {
+            bindings = <&mo 8>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
@@ -120,6 +125,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        tab_move {
+            bindings = <
+&trans            &trans            &trans            &trans            &trans            &trans  &trans  &trans  &trans  &trans
+&kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)  &trans  &trans  &trans  &trans  &trans
+&kp LG(NUMBER_6)  &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &trans            &trans  &trans  &trans  &trans  &trans
+&trans            &trans            &trans            &trans            &trans            &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
