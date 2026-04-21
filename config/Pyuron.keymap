@@ -15,7 +15,7 @@
         compatible = "zmk,combos";
 
         right-scroll {
-            bindings = <&mo 5>;
+            bindings = <&tog 5>;
             key-positions = <17 18>;
         };
 
