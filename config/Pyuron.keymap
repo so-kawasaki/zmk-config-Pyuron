@@ -21,7 +21,7 @@
 
         left-cursol {
             bindings = <&tog 7>;
-            key-positions = <12 11>;
+            key-positions = <>;
         };
 
         tab_move {
