@@ -24,14 +24,14 @@
             key-positions = <>;
         };
 
-        tab_move {
-            bindings = <&mo 8>;
-            key-positions = <21 22>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <29 30>;
+        };
+
+        command-enter {
+            bindings = <&kp LG(ENTER)>;
+            key-positions = <23 24>;
         };
     };
 
